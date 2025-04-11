@@ -5,7 +5,8 @@ from tkinter import ttk
 from tkcalendar import Calendar
 
 # Verbindung zur SQLite-Datenbank herstellen
-conn = sqlite3.connect('einkauf.db')
+# Bitte den vollständigen Pfad zur Datenbank angeben
+conn = sqlite3.connect('/pfad/zur/deiner/einkauf.db')
 cursor = conn.cursor()
 
 
