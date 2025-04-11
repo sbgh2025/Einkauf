@@ -5,7 +5,8 @@ from tkcalendar import DateEntry
 import pandas as pd
 
 # DB-Verbindung
-conn = sqlite3.connect("einkauf.db")
+# Bitte den vollständigen Pfad zur Datenbank angeben
+conn = sqlite3.connect('/pfad/zur/deiner/einkauf.db')
 cursor = conn.cursor()
 
 # Tkinter Fenster
