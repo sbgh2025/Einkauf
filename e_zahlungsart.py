@@ -3,7 +3,8 @@ import tkinter as tk
 from tkinter import messagebox, ttk
 
 # Verbindung zur SQLite-Datenbank herstellen
-conn = sqlite3.connect('/home/birgit/PycharmProjects/ProjektEinkauf/src/einkauf.db')
+# Bitte den vollständigen Pfad zur Datenbank angeben
+conn = sqlite3.connect('/pfad/zur/deiner/einkauf.db')
 cursor = conn.cursor()
 
 conn.commit()
